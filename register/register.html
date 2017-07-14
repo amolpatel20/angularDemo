@@ -1,0 +1,127 @@
+<div class="container">
+
+    <form class="well form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend><center><h2><b>Registration Form</b></h2></center></legend><br>
+
+<!-- Text input-->
+
+<div class="row form-group">
+
+    <div class="col-md-6">
+        <div class="row form-group">
+            <div class="col-md-10">
+              <input placeholder="Restaurant Name" ng-model="restaurant.restName" class="form-control"  type="text">
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="col-md-10">
+              <textarea placeholder="About restaurant" ng-model="restaurant.restAbout" class="form-control"  type="text"></textarea>
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="col-md-10">
+             <input placeholder="Address" ng-model="restaurant.address" class="form-control"  type="text">
+            </div>
+        </div>
+        
+        <div class="row form-group">
+            <div class="col-md-10">
+             <input placeholder="Locality" ng-model="restaurant.locality" class="form-control"  type="text">
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="col-md-5">
+              <input placeholder="Country Id" ng-model="restaurant.countryID" class="form-control"  type="number">
+            </div>
+            <div class="col-md-5">
+             <input placeholder="City_id" ng-model="restaurant.cityID" class="form-control"  type="number">
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="col-md-5">
+              <input placeholder="Contact No" ng-model="restaurant.contactNo" class="form-control"  type="text">
+            </div>
+            <div class="col-md-5">
+              <input placeholder="Zip Code" ng-model="restaurant.zipCode" class="form-control"  type="text">
+            </div>
+        </div>
+         <div class="row form-group">
+            <div class="col-md-5">
+              <input placeholder="Latitude" ng-model="restaurant.latitude" class="form-control"  type="text">
+            </div>
+            <div class="col-md-5">
+              <input placeholder="Longitude" ng-model="restaurant.longitude" class="form-control"  type="text">
+            </div>
+        </div>
+         <div class="row form-group">
+            <div class="col-md-10">
+              <input placeholder="Website Url" ng-model="restaurant.websiteUrl" class="form-control"  type="text">
+            </div>
+        </div>
+         <div class="row form-group">
+            <div class="col-md-10">
+              <input placeholder="Restaurant Image" ng-model="restaurant.restImage" class="form-control"  type="text">
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="col-md-10">
+              <input placeholder="Restaurant Handle" ng-model="restaurant.handle" class="form-control"  type="text">
+            </div>
+        </div>
+
+    </div>
+
+     <div class="col-md-6">
+
+     <div class="row form-group">
+            <div class="col-md-10">
+              <input placeholder="User Name" ng-model="restaurant.username" class="form-control"  type="text">
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="col-md-10">
+              <input placeholder="Password" ng-model="restaurant.password" class="form-control"  type="Password">
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="col-md-10">
+              <input placeholder="Email Id" ng-model="restaurant.email_id" class="form-control"  type="email">
+            </div>
+        </div>
+      
+    </div>
+</div>
+
+<!-- Text input-->
+
+
+  
+<!-- Text input-->
+
+
+
+
+
+
+
+
+
+
+<!-- Success message -->
+<!-- <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Success!.</div>
+ -->
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label"></label>
+  <div class="col-md-4"><br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="button" ng-click="register(restaurant)" class="btn btn-warning" value="SUBMIT">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</input>
+  </div>
+</div>
+
+</fieldset>
+</form>
+</div>
+    </div><!-- /.container -->
